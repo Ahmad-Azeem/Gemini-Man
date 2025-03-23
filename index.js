@@ -10,10 +10,10 @@ async function main() {
         const database = client.db("testDB");
         const collection = database.collection("users");
    
-        await collection.insertOne({name: "John Doe", age: 25});
+        await collection.insertOne({name: "Syafiq Iman", age: 23});
         console.log("Document inserted");
 
-        const result = await collection.findOne({name: "John Doe"});
+        const result = await collection.findOne({name: "Syafiq Iman"});
         console.log("Query result: ", result);
 
     }catch (err){
