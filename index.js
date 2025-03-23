@@ -20,7 +20,7 @@ async function main() {
         console.error("Error:", err);
 
     }finally {
-        await client.close();
+        await client.close(); 
     }
 
 }    
